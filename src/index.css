@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* We can remove the border we've set at the beginnig */
+#gjs {
+  border: none;
+}
+/* Theming */
+
+/* Primary color for the background */
+.gjs-one-bg {
+  background-color: #78366a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Secondary color for the text color */
+.gjs-two-color {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Tertiary color for the background */
+.gjs-three-bg {
+  background-color: #ec5896;
+  color: white;
+}
+
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #ec5896;
+}
+
+.col{
+  color:red,
 }

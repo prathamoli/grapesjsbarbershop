@@ -6,8 +6,19 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.6",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "grapesjs": "^0.17.19",
+    "grapesjs-bootstrap4-blocks": "^0.2.17",
+    "grapesjs-custom-blocks": "^0.0.2",
+    "grapesjs-preset-webpage": "^0.1.11",
+    "grapesjs-react": "^4.0.1-alpha",
+    "grapesjs-template-manager": "^1.0.7",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-grapesjs": "^0.1.15",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
   }
 }
